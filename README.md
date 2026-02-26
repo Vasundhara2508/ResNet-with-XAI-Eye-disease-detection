@@ -1,11 +1,11 @@
 
-# 👁️ Eye Disease Detection using ResNet50 with Explainable AI (Grad-CAM)
+# Eye Disease Detection using ResNet50 with Explainable AI (Grad-CAM)
 
 This project implements an **eye disease classification system** using **transfer learning with ResNet50** and provides **model interpretability** via **Grad-CAM visualizations**. The goal is not only to achieve strong predictive performance but also to explain *why* the model makes its decisions — a critical requirement in medical AI applications.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 Medical image classification models often behave as black boxes. In healthcare, predictions without explanations are risky. This project:
 
@@ -17,7 +17,7 @@ Medical image classification models often behave as black boxes. In healthcare, 
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 * **Base Model:** ResNet50 (Pre-trained on ImageNet)
 * **Technique:** Fine-tuning final layers
@@ -30,7 +30,7 @@ Medical image classification models often behave as black boxes. In healthcare, 
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 The model is designed for the **ODIR5K (Ocular Disease Intelligent Recognition)** dataset.
 
@@ -49,27 +49,27 @@ Each class folder contains retinal images corresponding to a disease category.
 
 ---
 
-## ⚙️ Features Implemented
+##  Features Implemented
 
-### ✔ Data Preprocessing
+###  Data Preprocessing
 
 * Image resizing
 * Tensor conversion
 * Dataset loading using `ImageFolder`
 
-### ✔ Training Strategy
+###  Training Strategy
 
 * Transfer learning with ResNet50
 * Cross-validation (K-Fold)
 * Accuracy tracking
 
-### ✔ Evaluation Metrics
+###  Evaluation Metrics
 
 * Accuracy
 * Confusion Matrix
 * Classification Report
 
-### ✔ Explainable AI
+###  Explainable AI
 
 * Grad-CAM heatmaps
 * Visual explanation of predictions
@@ -77,7 +77,7 @@ Each class folder contains retinal images corresponding to a disease category.
 
 ---
 
-## 🛠️ Installation
+##  Installation
 
 Clone the repository:
 
@@ -94,7 +94,7 @@ pip install numpy pandas torch torchvision timm scikit-learn matplotlib pillow o
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 ### **1️⃣ Train the Model**
 
@@ -120,7 +120,7 @@ This generates a heatmap showing **where the model is looking**.
 
 ---
 
-## 🔬 Grad-CAM Explanation
+##  Grad-CAM Explanation
 
 Grad-CAM (Gradient-weighted Class Activation Mapping):
 
@@ -132,7 +132,7 @@ This helps validate whether the model focuses on **clinically meaningful feature
 
 ---
 
-## 📊 Example Outputs
+##  Example Outputs
 
 * Disease classification predictions
 * Confusion matrices
@@ -140,16 +140,19 @@ This helps validate whether the model focuses on **clinically meaningful feature
 
 ---
 
-## 🎯 Key Learnings
+##  Key Learnings
 
 ✔ Transfer learning works effectively for medical imaging
+
 ✔ Image resolution significantly affects performance
+
 ✔ Explainability improves trust in AI systems
+
 ✔ Grad-CAM helps detect model failure cases
 
 ---
 
-## ⚠️ Important Notes
+##  Important Notes
 
 * Dataset paths are currently hardcoded (update before running)
 * GPU recommended for training
@@ -157,7 +160,7 @@ This helps validate whether the model focuses on **clinically meaningful feature
 
 ---
 
-## 🧩 Dependencies
+##  Dependencies
 
 * Python 3.x
 * PyTorch
@@ -168,13 +171,6 @@ This helps validate whether the model focuses on **clinically meaningful feature
 * OpenCV
 * Matplotlib
 * Pillow
-
----
-
-## 📜 License
-
-This project is for **academic / research purposes**.
-Verify dataset usage rights before distribution.
 
 ---
 
