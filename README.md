@@ -1,6 +1,3 @@
-Here is a clean, GitHub-ready **README.md** you can paste directly into your repository.
-
----
 
 # 👁️ Eye Disease Detection using ResNet50 with Explainable AI (Grad-CAM)
 
@@ -12,11 +9,11 @@ This project implements an **eye disease classification system** using **transfe
 
 Medical image classification models often behave as black boxes. In healthcare, predictions without explanations are risky. This project:
 
-✅ Trains a deep learning classifier for ocular diseases
-✅ Uses a **pre-trained ResNet50** model (transfer learning)
-✅ Evaluates performance using **K-Fold Cross-Validation**
-✅ Applies **Grad-CAM** for visual explanations
-✅ Demonstrates preprocessing & augmentation strategies
+* Trains a deep learning classifier for ocular diseases
+* Uses a **pre-trained ResNet50** model (transfer learning)
+* Evaluates performance using **K-Fold Cross-Validation**
+* Applies **Grad-CAM** for visual explanations
+* Demonstrates preprocessing & augmentation strategies
 
 ---
 
